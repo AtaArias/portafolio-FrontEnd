@@ -12,6 +12,9 @@ import { ProjectsComponent } from './components/pages/projects/projects.componen
 import { EducationComponent } from './components/pages/education/education.component';
 import { LogInOutComponent } from './components/header-elements/log-in-out/log-in-out.component';
 import { LogoDelProgramaComponent } from './components/header-elements/logo-del-programa/logo-del-programa.component';
+import { ExpercienceComponent } from './components/pages/expercience/expercience.component';
+import { LandingComponent } from './components/pages/landing/landing.component';
+import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { LogoDelProgramaComponent } from './components/header-elements/logo-del-
     ProjectsComponent,
     EducationComponent,
     LogInOutComponent,
-    LogoDelProgramaComponent
+    LogoDelProgramaComponent,
+    ExpercienceComponent,
+    LandingComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
