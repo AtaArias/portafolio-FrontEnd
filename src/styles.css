@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
 }
+
+body {
+    background: linear-gradient(black, #110000);
+}
+
+a, p, h1, h2, h3, h4 {
+    color: white;
+}
+
