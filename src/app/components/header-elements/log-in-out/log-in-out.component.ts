@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faSignIn } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-log-in-out',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./log-in-out.component.css']
 })
 export class LogInOutComponent {
-
+ faCoffee =faCoffee;
+ faSignIn = faSignIn
 }
