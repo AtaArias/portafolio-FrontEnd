@@ -1,0 +1,10 @@
+.navIcon {
+    background-color: lightcoral;
+}
+
+.colContainer {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
