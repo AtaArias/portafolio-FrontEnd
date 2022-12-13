@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -9,9 +12,28 @@ html, body {
 
 body {
     background: linear-gradient(black, #110000);
+    margin: 0px;
+    padding: 0px;
 }
 
 a, p, h1, h2, h3, h4 {
     color: white;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
+.page {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 4em;
+}

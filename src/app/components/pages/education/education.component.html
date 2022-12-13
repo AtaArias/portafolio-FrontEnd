@@ -1,1 +1,13 @@
-<p>education works!</p>
+<section>
+    <h1 class="title"> Education </h1>
+
+    <p> Education cards </p>
+
+    <ul>
+        <li
+            *ngFor="let course of courses"
+        >
+            <h2> {{course}} </h2>
+        </li>
+    </ul>
+</section>
