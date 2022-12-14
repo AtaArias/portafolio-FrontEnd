@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
-
 import { AppRoutingModule } from './app-routing.module';
+
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainWrapperComponent } from './components/main-wrapper/main-wrapper.component';
@@ -18,6 +18,7 @@ import { LogoDelProgramaComponent } from './components/header-elements/logo-del-
 import { ExpercienceComponent } from './components/pages/expercience/expercience.component';
 import { LandingComponent } from './components/pages/landing/landing.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { NotFoundComponent } from './components/pages/not-found/not-found.compon
     LogoDelProgramaComponent,
     ExpercienceComponent,
     LandingComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
